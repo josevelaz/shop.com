@@ -17,7 +17,7 @@ _NOTE: You must supply your own API key_
    - Add ``API_KEY=YOUR_API_KEY``
    - Add ``API_URL=https://api2.shop.com``
    - Save file
-4. run ``npm install`` to install all NPM dependecies
+4. Run ``npm install`` to install all NPM dependecies
 5. Install Native Dependecies
    - __If using iOS__
      1. In the root project folder, run ``npx pod-install``
@@ -68,7 +68,7 @@ app
 ```
 
 **components**
-This is where your React dumb components will live. Each component will have a directory containing the `.js` file,and optionally `.presets`,The app will come with some commonly used components like Button.
+This is where your React dumb components will live. Each component will have a directory containing the `.js` file. The app will come with some commonly used components like Button.
 
 **navigation**
 This is where your `react-navigation` navigators will live.
@@ -79,7 +79,7 @@ For a walkthrough about how React Navigation v5 works, check out Harris Robin's 
 This is where your screen components will live. A screen is a React component which will take up the entire screen and be part of the navigation hierarchy. Each screen will have a directory containing the `.js` file, along with any assets or other helper files.
 
 **theme**
-Here lives the theme for your application, including spacing, colors, and typography. For help with adding custom fonts to your application, [check out the readme in ./assets/fonts/](./boilerplate/assets/fonts/custom-fonts.md).
+Here lives the theme for your application, including spacing, colors, and typography. 
 
 **utils**
 This is a great place to put miscellaneous helpers and utilities. Things like date helpers, formatters, etc. are often found here. However, it should only be used for things that are truely shared across your application. If a helper or utility is only used by a specific component or model, consider co-locating your helper with that component or model.
