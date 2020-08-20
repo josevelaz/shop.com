@@ -73,7 +73,7 @@ This is where your React dumb components will live. Each component will have a d
 **navigation**
 This is where your `react-navigation` navigators will live.
 
-For a walkthrough about how React Navigation v5 works, check out Harris Robin's post: [Getting Started with the New React Navigation v5](https://reactnavigation.org/)
+For a walkthrough about how React Navigation v5 works[Getting Started with the New React Navigation v5](https://reactnavigation.org/)
 
 **screens**
 This is where your screen components will live. A screen is a React component which will take up the entire screen and be part of the navigation hierarchy. Each screen will have a directory containing the `.js` file, along with any assets or other helper files.
